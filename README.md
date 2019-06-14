@@ -1,7 +1,5 @@
-# Customize-Vue-components
+<h1 align="center">ustomize-Vue-components</h1>
 Custom base components based on Vue2
-
-<h1 align="center">NiceFish</h1>
 
 <div align="left">
 本项目是个人在学习vue的过程中，整理参考自定义基础vue组件的例子，包含toast、alert、confirm、loading等组件，后续会不断更新个人学习和练手的自定义组件。
