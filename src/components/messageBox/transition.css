@@ -1,0 +1,13 @@
+.ms-messagebox-mask-transition{
+    transition: all .4s;
+}
+.ms-messagebox-mask-diff{
+    opacity:1 !important;
+}
+.ms-messagebox-popup-transition{
+    transition: all .4s;
+}
+.ms-messagebox-popup-diff{
+    opacity: 0 !important;
+    transform: translated3d(-50%,-50%,0) scale(1.185) !important;
+}
