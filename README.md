@@ -1,8 +1,7 @@
-<h1 align="center">ustomize-Vue-components</h1>
-Custom base components based on Vue2
+<h1 align="center">Customize-Vue-components</h1>
 
 <div align="left">
-本项目是个人在学习vue的过程中，整理参考自定义基础vue组件的例子，包含toast、alert、confirm、loading等组件，后续会不断更新个人学习和练手的自定义组件。
+Custom base components based on Vue2, 本项目是个人在学习vue2的过程中，整理参考自定义基础vue组件的例子，包含Toast、Alert、Confirm、Loading等公共基础组件，后续会不断更新个人学习和练手的自定义组件。
 </div>
 
 ## 用法
@@ -15,15 +14,14 @@ Custom base components based on Vue2
     npm i
 
     dev-mode:
-
     npm run dev 
 
     prod-mode:
-
     npm run build
     cd dist 
     npm install express
     node server 
+
 
 打开浏览器，访问http://localhost:3000/
 
@@ -32,7 +30,9 @@ Custom base components based on Vue2
 
 ## 主要依赖
 
+
 ## 组件列表
+
 
 ## 开源许可证
 
