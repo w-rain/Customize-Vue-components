@@ -27,11 +27,54 @@ Custom base components based on Vue2, 本项目是个人在学习vue2的过程�
 
 ## 项目结构
 
+```
+ --dist
+    server.js               //express启动文件
+ --node_modules             //npm包管理器
+ --public                   //公共文件和资源
+    favicon.ico             //网页tab页标识
+    index.html              //静态文件入口index.html
+ --src  
+   --assets                 //静态资源
+     logo.png               //vue的logo
+   --components             //组件
+      --messageBox          //ms基础组件包
+        --Alert
+        --directives
+        --ios
+        --Loading
+        --mixins
+        --Toast
+        --utils
+        index.js
+        transition.css
+      --Toast               //Toast单独调用组件
+        index.js
+        toast.vue
+      HelloWorld.vue
+    App.vue
+
+ .gitignore                 //git忽略上传文件
+ package.json               //项目配置与依赖文件
+ README.md // 说明文档
+```
 
 ## 主要依赖
-
+    Vue
+    Vue-cli
+    express
+    lodash
+    babel
+    lodash
+    vue-template-compiler
+    less-loader
 
 ## 组件列表
+
+    Toast
+    Alert
+    Confirm
+    Loading
 
 
 ## 开源许可证
